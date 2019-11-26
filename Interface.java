@@ -34,6 +34,9 @@ class Triangle implements Shape
 
 public class test {
     public static void main (String args[]){
-        
+        Rectangle r = new Rectangle(5,10);
+        Triangle  t = new Triangle(5,10);
+        System.out.println(r);
+        System.out.println(t);
     }
 }
